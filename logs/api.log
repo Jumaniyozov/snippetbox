@@ -1,0 +1,7 @@
+time=2023-10-03T16:33:03.504+05:00 level=ERROR msg="Error 1045 (28000): Access denied for user 'web'@'172.17.0.1' (using password: YES)"
+time=2023-10-03T16:33:22.528+05:00 level=INFO msg="starting server" addr=:4000
+time=2023-10-03T16:55:05.154+05:00 level=INFO msg="starting server" addr=:4000
+time=2023-10-03T16:55:05.154+05:00 level=ERROR msg="listen tcp :4000: bind: address already in use"
+time=2023-10-03T16:55:12.773+05:00 level=INFO msg="starting server" addr=:4000
+time=2023-10-03T17:02:27.612+05:00 level=INFO msg="starting server" addr=:4000
+time=2023-10-03T17:24:05.782+05:00 level=INFO msg="starting server" addr=:4000
