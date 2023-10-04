@@ -1,7 +1,26 @@
-time=2023-10-03T16:33:03.504+05:00 level=ERROR msg="Error 1045 (28000): Access denied for user 'web'@'172.17.0.1' (using password: YES)"
-time=2023-10-03T16:33:22.528+05:00 level=INFO msg="starting server" addr=:4000
-time=2023-10-03T16:55:05.154+05:00 level=INFO msg="starting server" addr=:4000
-time=2023-10-03T16:55:05.154+05:00 level=ERROR msg="listen tcp :4000: bind: address already in use"
-time=2023-10-03T16:55:12.773+05:00 level=INFO msg="starting server" addr=:4000
-time=2023-10-03T17:02:27.612+05:00 level=INFO msg="starting server" addr=:4000
-time=2023-10-03T17:24:05.782+05:00 level=INFO msg="starting server" addr=:4000
+{"time":"2023-10-04T11:58:12.041881266+05:00","level":"INFO","msg":"received request","ip":"[::1]:46690","proto":"HTTP/1.1","method":"GET","uri":"/"}
+{"time":"2023-10-04T11:58:12.052237183+05:00","level":"INFO","msg":"received request","ip":"[::1]:46690","proto":"HTTP/1.1","method":"GET","uri":"/static/css/main.css"}
+{"time":"2023-10-04T11:58:12.052251237+05:00","level":"INFO","msg":"received request","ip":"[::1]:46694","proto":"HTTP/1.1","method":"GET","uri":"/static/js/main.js"}
+{"time":"2023-10-04T11:58:12.154434909+05:00","level":"INFO","msg":"received request","ip":"[::1]:46690","proto":"HTTP/1.1","method":"GET","uri":"/static/img/logo.png"}
+{"time":"2023-10-04T11:58:12.288778106+05:00","level":"INFO","msg":"received request","ip":"[::1]:46690","proto":"HTTP/1.1","method":"GET","uri":"/static/img/favicon.ico"}
+{"time":"2023-10-04T11:58:27.343308242+05:00","level":"INFO","msg":"received request","ip":"[::1]:46690","proto":"HTTP/1.1","method":"GET","uri":"/snippet/view?id=2"}
+{"time":"2023-10-04T11:58:37.623868004+05:00","level":"INFO","msg":"received request","ip":"[::1]:46690","proto":"HTTP/1.1","method":"GET","uri":"/"}
+{"time":"2023-10-04T11:58:39.534535366+05:00","level":"INFO","msg":"received request","ip":"[::1]:46690","proto":"HTTP/1.1","method":"GET","uri":"/snippet/view?id=1"}
+{"time":"2023-10-04T14:17:00.795102299+05:00","level":"INFO","msg":"starting server","addr":":4000"}
+{"time":"2023-10-04T14:17:11.483077107+05:00","level":"INFO","msg":"received request","ip":"127.0.0.1:40752","proto":"HTTP/1.1","method":"GET","uri":"/snippet/view/99"}
+{"time":"2023-10-04T14:17:15.891977996+05:00","level":"INFO","msg":"received request","ip":"127.0.0.1:41154","proto":"HTTP/1.1","method":"GET","uri":"/missing"}
+{"time":"2023-10-04T14:17:20.800887131+05:00","level":"INFO","msg":"received request","ip":"127.0.0.1:41166","proto":"HTTP/1.1","method":"GET","uri":"/missing"}
+{"time":"2023-10-04T14:26:30.04906032+05:00","level":"INFO","msg":"starting server","addr":":4000"}
+{"time":"2023-10-04T14:26:31.362312671+05:00","level":"INFO","msg":"received request","ip":"[::1]:57218","proto":"HTTP/1.1","method":"GET","uri":"/snippet/create"}
+{"time":"2023-10-04T14:26:31.401229414+05:00","level":"INFO","msg":"received request","ip":"[::1]:57218","proto":"HTTP/1.1","method":"GET","uri":"/static/css/main.css"}
+{"time":"2023-10-04T14:26:31.401994968+05:00","level":"INFO","msg":"received request","ip":"[::1]:57232","proto":"HTTP/1.1","method":"GET","uri":"/static/js/main.js"}
+{"time":"2023-10-04T14:26:31.442699309+05:00","level":"INFO","msg":"received request","ip":"[::1]:57232","proto":"HTTP/1.1","method":"GET","uri":"/static/img/logo.png"}
+{"time":"2023-10-04T14:54:37.895712404+05:00","level":"INFO","msg":"starting server","addr":":4000"}
+{"time":"2023-10-04T14:54:39.812402973+05:00","level":"INFO","msg":"received request","ip":"[::1]:52694","proto":"HTTP/1.1","method":"GET","uri":"/snippet/create"}
+{"time":"2023-10-04T14:54:39.822307601+05:00","level":"INFO","msg":"received request","ip":"[::1]:52694","proto":"HTTP/1.1","method":"GET","uri":"/static/css/main.css"}
+{"time":"2023-10-04T14:54:39.823485533+05:00","level":"INFO","msg":"received request","ip":"[::1]:52700","proto":"HTTP/1.1","method":"GET","uri":"/static/js/main.js"}
+{"time":"2023-10-04T14:54:40.14039097+05:00","level":"INFO","msg":"received request","ip":"[::1]:52694","proto":"HTTP/1.1","method":"GET","uri":"/static/img/logo.png"}
+{"time":"2023-10-04T14:54:40.558114591+05:00","level":"INFO","msg":"received request","ip":"[::1]:52694","proto":"HTTP/1.1","method":"GET","uri":"/static/img/favicon.ico"}
+{"time":"2023-10-04T15:20:01.300920652+05:00","level":"INFO","msg":"starting server","addr":":4000"}
+{"time":"2023-10-04T15:20:02.694064487+05:00","level":"INFO","msg":"received request","ip":"[::1]:51438","proto":"HTTP/1.1","method":"GET","uri":"/snippet/create"}
+{"time":"2023-10-04T15:20:08.348504964+05:00","level":"INFO","msg":"received request","ip":"[::1]:51438","proto":"HTTP/1.1","method":"POST","uri":"/snippet/create"}
