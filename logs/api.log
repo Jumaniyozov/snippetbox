@@ -1,26 +1,239 @@
-{"time":"2023-10-04T11:58:12.041881266+05:00","level":"INFO","msg":"received request","ip":"[::1]:46690","proto":"HTTP/1.1","method":"GET","uri":"/"}
-{"time":"2023-10-04T11:58:12.052237183+05:00","level":"INFO","msg":"received request","ip":"[::1]:46690","proto":"HTTP/1.1","method":"GET","uri":"/static/css/main.css"}
-{"time":"2023-10-04T11:58:12.052251237+05:00","level":"INFO","msg":"received request","ip":"[::1]:46694","proto":"HTTP/1.1","method":"GET","uri":"/static/js/main.js"}
-{"time":"2023-10-04T11:58:12.154434909+05:00","level":"INFO","msg":"received request","ip":"[::1]:46690","proto":"HTTP/1.1","method":"GET","uri":"/static/img/logo.png"}
-{"time":"2023-10-04T11:58:12.288778106+05:00","level":"INFO","msg":"received request","ip":"[::1]:46690","proto":"HTTP/1.1","method":"GET","uri":"/static/img/favicon.ico"}
-{"time":"2023-10-04T11:58:27.343308242+05:00","level":"INFO","msg":"received request","ip":"[::1]:46690","proto":"HTTP/1.1","method":"GET","uri":"/snippet/view?id=2"}
-{"time":"2023-10-04T11:58:37.623868004+05:00","level":"INFO","msg":"received request","ip":"[::1]:46690","proto":"HTTP/1.1","method":"GET","uri":"/"}
-{"time":"2023-10-04T11:58:39.534535366+05:00","level":"INFO","msg":"received request","ip":"[::1]:46690","proto":"HTTP/1.1","method":"GET","uri":"/snippet/view?id=1"}
-{"time":"2023-10-04T14:17:00.795102299+05:00","level":"INFO","msg":"starting server","addr":":4000"}
-{"time":"2023-10-04T14:17:11.483077107+05:00","level":"INFO","msg":"received request","ip":"127.0.0.1:40752","proto":"HTTP/1.1","method":"GET","uri":"/snippet/view/99"}
-{"time":"2023-10-04T14:17:15.891977996+05:00","level":"INFO","msg":"received request","ip":"127.0.0.1:41154","proto":"HTTP/1.1","method":"GET","uri":"/missing"}
-{"time":"2023-10-04T14:17:20.800887131+05:00","level":"INFO","msg":"received request","ip":"127.0.0.1:41166","proto":"HTTP/1.1","method":"GET","uri":"/missing"}
-{"time":"2023-10-04T14:26:30.04906032+05:00","level":"INFO","msg":"starting server","addr":":4000"}
-{"time":"2023-10-04T14:26:31.362312671+05:00","level":"INFO","msg":"received request","ip":"[::1]:57218","proto":"HTTP/1.1","method":"GET","uri":"/snippet/create"}
-{"time":"2023-10-04T14:26:31.401229414+05:00","level":"INFO","msg":"received request","ip":"[::1]:57218","proto":"HTTP/1.1","method":"GET","uri":"/static/css/main.css"}
-{"time":"2023-10-04T14:26:31.401994968+05:00","level":"INFO","msg":"received request","ip":"[::1]:57232","proto":"HTTP/1.1","method":"GET","uri":"/static/js/main.js"}
-{"time":"2023-10-04T14:26:31.442699309+05:00","level":"INFO","msg":"received request","ip":"[::1]:57232","proto":"HTTP/1.1","method":"GET","uri":"/static/img/logo.png"}
-{"time":"2023-10-04T14:54:37.895712404+05:00","level":"INFO","msg":"starting server","addr":":4000"}
-{"time":"2023-10-04T14:54:39.812402973+05:00","level":"INFO","msg":"received request","ip":"[::1]:52694","proto":"HTTP/1.1","method":"GET","uri":"/snippet/create"}
-{"time":"2023-10-04T14:54:39.822307601+05:00","level":"INFO","msg":"received request","ip":"[::1]:52694","proto":"HTTP/1.1","method":"GET","uri":"/static/css/main.css"}
-{"time":"2023-10-04T14:54:39.823485533+05:00","level":"INFO","msg":"received request","ip":"[::1]:52700","proto":"HTTP/1.1","method":"GET","uri":"/static/js/main.js"}
-{"time":"2023-10-04T14:54:40.14039097+05:00","level":"INFO","msg":"received request","ip":"[::1]:52694","proto":"HTTP/1.1","method":"GET","uri":"/static/img/logo.png"}
-{"time":"2023-10-04T14:54:40.558114591+05:00","level":"INFO","msg":"received request","ip":"[::1]:52694","proto":"HTTP/1.1","method":"GET","uri":"/static/img/favicon.ico"}
-{"time":"2023-10-04T15:20:01.300920652+05:00","level":"INFO","msg":"starting server","addr":":4000"}
-{"time":"2023-10-04T15:20:02.694064487+05:00","level":"INFO","msg":"received request","ip":"[::1]:51438","proto":"HTTP/1.1","method":"GET","uri":"/snippet/create"}
-{"time":"2023-10-04T15:20:08.348504964+05:00","level":"INFO","msg":"received request","ip":"[::1]:51438","proto":"HTTP/1.1","method":"POST","uri":"/snippet/create"}
+time=2023-10-05T12:00:26.550+05:00 level=INFO msg="received request" ip=[::1]:36512 proto=HTTP/1.1 method=GET uri=/
+time=2023-10-05T12:00:26.553+05:00 level=ERROR msg="http: invalid Content-Length of \"this isn't an integer!\""
+time=2023-10-05T12:00:26.561+05:00 level=INFO msg="received request" ip=[::1]:36512 proto=HTTP/1.1 method=GET uri=/static/css/main.css
+time=2023-10-05T12:00:26.561+05:00 level=INFO msg="received request" ip=[::1]:36516 proto=HTTP/1.1 method=GET uri=/static/js/main.js
+time=2023-10-05T12:00:26.892+05:00 level=INFO msg="received request" ip=[::1]:36512 proto=HTTP/1.1 method=GET uri=/static/img/logo.png
+time=2023-10-05T12:00:27.053+05:00 level=INFO msg="received request" ip=[::1]:36512 proto=HTTP/1.1 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T12:17:29.364+05:00 level=INFO msg="starting server" addr=:4000
+time=2023-10-05T12:17:45.316+05:00 level=ERROR msg="http: TLS handshake error from [::1]:38142: remote error: tls: unknown certificate"
+time=2023-10-05T12:17:45.316+05:00 level=ERROR msg="http: TLS handshake error from [::1]:38126: remote error: tls: unknown certificate"
+time=2023-10-05T12:17:48.578+05:00 level=ERROR msg="http: TLS handshake error from [::1]:38150: remote error: tls: unknown certificate"
+time=2023-10-05T12:17:48.578+05:00 level=ERROR msg="http: TLS handshake error from [::1]:38152: remote error: tls: unknown certificate"
+time=2023-10-05T12:17:48.581+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T12:17:48.594+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T12:17:48.597+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T12:17:48.603+05:00 level=ERROR msg="http: TLS handshake error from [::1]:38174: remote error: tls: unknown certificate"
+time=2023-10-05T12:17:48.936+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T12:17:49.412+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T12:18:32.031+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T12:18:32.106+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/favicon.ico
+time=2023-10-05T12:19:44.328+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T12:19:51.753+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T12:19:51.801+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T12:19:51.801+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T12:19:51.809+05:00 level=ERROR msg="http: TLS handshake error from [::1]:35826: remote error: tls: unknown certificate"
+time=2023-10-05T12:19:51.976+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T12:19:52.096+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T12:21:01.379+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T12:21:01.431+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T12:21:01.431+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T12:21:01.582+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T12:21:01.708+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T12:22:00.085+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T12:22:00.131+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T12:22:00.131+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T12:22:00.175+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T12:22:00.290+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T12:22:20.388+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T12:22:20.431+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T12:22:20.431+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T12:22:20.435+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T12:22:20.438+05:00 level=ERROR msg="http: TLS handshake error from [::1]:39382: remote error: tls: unknown certificate"
+time=2023-10-05T12:22:20.452+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T12:22:21.609+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T12:22:21.621+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T12:22:21.621+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T12:22:21.626+05:00 level=ERROR msg="http: TLS handshake error from [::1]:39384: remote error: tls: unknown certificate"
+time=2023-10-05T12:22:21.705+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T12:22:21.956+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T12:22:30.553+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T12:22:30.601+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T12:22:30.601+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T12:22:30.609+05:00 level=ERROR msg="http: TLS handshake error from [::1]:46018: remote error: tls: unknown certificate"
+time=2023-10-05T12:22:30.661+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T12:22:30.775+05:00 level=INFO msg="received request" ip=[::1]:38164 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T12:25:02.297+05:00 level=INFO msg="starting server" addr=:4000
+time=2023-10-05T12:25:13.869+05:00 level=ERROR msg="http: TLS handshake error from [::1]:48812: remote error: tls: unknown certificate"
+time=2023-10-05T12:25:13.872+05:00 level=INFO msg="received request" ip=[::1]:48822 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T12:25:13.882+05:00 level=INFO msg="received request" ip=[::1]:48822 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T12:25:13.884+05:00 level=INFO msg="received request" ip=[::1]:48822 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T12:25:13.960+05:00 level=INFO msg="received request" ip=[::1]:48822 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T12:25:14.872+05:00 level=INFO msg="received request" ip=[::1]:48822 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T12:25:21.753+05:00 level=INFO msg="received request" ip=[::1]:48822 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T12:25:21.798+05:00 level=INFO msg="received request" ip=[::1]:48822 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T12:25:21.798+05:00 level=INFO msg="received request" ip=[::1]:48822 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T12:25:21.857+05:00 level=INFO msg="received request" ip=[::1]:48822 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T12:25:21.968+05:00 level=INFO msg="received request" ip=[::1]:48822 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T12:26:04.008+05:00 level=INFO msg="received request" ip=[::1]:48822 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T12:26:04.058+05:00 level=INFO msg="received request" ip=[::1]:48822 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T12:26:04.058+05:00 level=INFO msg="received request" ip=[::1]:48822 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T12:26:04.098+05:00 level=INFO msg="received request" ip=[::1]:48822 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T12:26:04.205+05:00 level=INFO msg="received request" ip=[::1]:48822 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T14:59:18.260+05:00 level=INFO msg="starting server" addr=:4000
+time=2023-10-05T14:59:27.690+05:00 level=ERROR msg="http: TLS handshake error from [::1]:37246: remote error: tls: unknown certificate"
+time=2023-10-05T14:59:36.640+05:00 level=ERROR msg="http: TLS handshake error from [::1]:43976: remote error: tls: unknown certificate"
+time=2023-10-05T14:59:36.643+05:00 level=ERROR msg="http: TLS handshake error from [::1]:43980: remote error: tls: unknown certificate"
+time=2023-10-05T14:59:36.646+05:00 level=INFO msg="received request" ip=[::1]:43984 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T14:59:36.661+05:00 level=INFO msg="received request" ip=[::1]:43984 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T14:59:36.664+05:00 level=INFO msg="received request" ip=[::1]:43984 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T14:59:36.988+05:00 level=INFO msg="received request" ip=[::1]:43984 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T14:59:39.522+05:00 level=INFO msg="received request" ip=[::1]:43984 proto=HTTP/2.0 method=GET uri=/user/signup
+time=2023-10-05T14:59:56.238+05:00 level=INFO msg="received request" ip=[::1]:43984 proto=HTTP/2.0 method=POST uri=/user/signup
+time=2023-10-05T14:59:56.334+05:00 level=INFO msg="received request" ip=[::1]:43984 proto=HTTP/2.0 method=GET uri=/favicon.ico
+time=2023-10-05T15:20:55.518+05:00 level=INFO msg="starting server" addr=:4000
+time=2023-10-05T15:20:59.835+05:00 level=ERROR msg="http: TLS handshake error from [::1]:54844: remote error: tls: unknown certificate"
+time=2023-10-05T15:20:59.837+05:00 level=ERROR msg="http: TLS handshake error from [::1]:54860: remote error: tls: unknown certificate"
+time=2023-10-05T15:20:59.840+05:00 level=INFO msg="received request" ip=[::1]:54876 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T15:20:59.851+05:00 level=INFO msg="received request" ip=[::1]:54876 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T15:20:59.853+05:00 level=INFO msg="received request" ip=[::1]:54876 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T15:21:00.067+05:00 level=ERROR msg="http: TLS handshake error from [::1]:54892: remote error: tls: unknown certificate"
+time=2023-10-05T15:21:00.201+05:00 level=INFO msg="received request" ip=[::1]:54876 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T15:21:00.957+05:00 level=INFO msg="received request" ip=[::1]:54876 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T15:21:01.202+05:00 level=INFO msg="received request" ip=[::1]:54876 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T15:21:02.826+05:00 level=INFO msg="received request" ip=[::1]:54876 proto=HTTP/2.0 method=GET uri=/user/signup
+time=2023-10-05T15:21:08.972+05:00 level=INFO msg="received request" ip=[::1]:54876 proto=HTTP/2.0 method=POST uri=/user/signup
+time=2023-10-05T15:21:09.212+05:00 level=INFO msg="received request" ip=[::1]:54876 proto=HTTP/2.0 method=GET uri=/user/login
+time=2023-10-05T15:21:09.265+05:00 level=INFO msg="received request" ip=[::1]:54876 proto=HTTP/2.0 method=GET uri=/favicon.ico
+time=2023-10-05T15:21:16.212+05:00 level=INFO msg="received request" ip=[::1]:54876 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T15:21:17.535+05:00 level=INFO msg="received request" ip=[::1]:54876 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T15:21:17.545+05:00 level=INFO msg="received request" ip=[::1]:54876 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T15:21:17.545+05:00 level=INFO msg="received request" ip=[::1]:54876 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T15:21:17.550+05:00 level=ERROR msg="http: TLS handshake error from [::1]:43982: remote error: tls: unknown certificate"
+time=2023-10-05T15:21:17.635+05:00 level=INFO msg="received request" ip=[::1]:54876 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T15:21:17.795+05:00 level=INFO msg="received request" ip=[::1]:54876 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T15:21:48.501+05:00 level=INFO msg="received request" ip=[::1]:54876 proto=HTTP/2.0 method=GET uri=/user/signup
+time=2023-10-05T15:21:48.545+05:00 level=INFO msg="received request" ip=[::1]:54876 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T15:21:55.156+05:00 level=INFO msg="received request" ip=[::1]:54876 proto=HTTP/2.0 method=POST uri=/user/signup
+time=2023-10-05T15:21:58.716+05:00 level=INFO msg="received request" ip=[::1]:54876 proto=HTTP/2.0 method=POST uri=/user/signup
+time=2023-10-05T15:44:27.008+05:00 level=INFO msg="starting server" addr=:4000
+time=2023-10-05T15:44:33.502+05:00 level=ERROR msg="http: TLS handshake error from [::1]:55342: remote error: tls: unknown certificate"
+time=2023-10-05T15:44:33.631+05:00 level=ERROR msg="http: TLS handshake error from [::1]:55348: remote error: tls: unknown certificate"
+time=2023-10-05T15:44:33.635+05:00 level=ERROR msg="http: TLS handshake error from [::1]:55350: remote error: tls: unknown certificate"
+time=2023-10-05T15:44:33.638+05:00 level=INFO msg="received request" ip=[::1]:55366 proto=HTTP/2.0 method=GET uri=/user/login
+time=2023-10-05T15:44:33.648+05:00 level=INFO msg="received request" ip=[::1]:55366 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T15:44:33.650+05:00 level=INFO msg="received request" ip=[::1]:55366 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T15:44:33.665+05:00 level=INFO msg="received request" ip=[::1]:55366 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T15:44:38.848+05:00 level=INFO msg="received request" ip=[::1]:55366 proto=HTTP/2.0 method=POST uri=/user/login
+time=2023-10-05T15:44:39.086+05:00 level=INFO msg="received request" ip=[::1]:55366 proto=HTTP/2.0 method=GET uri=/snippet/create
+time=2023-10-05T15:44:39.129+05:00 level=INFO msg="received request" ip=[::1]:55366 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T15:44:39.129+05:00 level=INFO msg="received request" ip=[::1]:55366 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T15:44:39.133+05:00 level=INFO msg="received request" ip=[::1]:55366 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T15:44:39.136+05:00 level=ERROR msg="http: TLS handshake error from [::1]:55372: remote error: tls: unknown certificate"
+time=2023-10-05T15:44:58.822+05:00 level=INFO msg="received request" ip=[::1]:55366 proto=HTTP/2.0 method=GET uri=/snippet/create
+time=2023-10-05T15:44:58.869+05:00 level=INFO msg="received request" ip=[::1]:55366 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T15:44:58.869+05:00 level=INFO msg="received request" ip=[::1]:55366 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T15:44:58.877+05:00 level=ERROR msg="http: TLS handshake error from [::1]:39616: remote error: tls: unknown certificate"
+time=2023-10-05T15:44:58.915+05:00 level=INFO msg="received request" ip=[::1]:55366 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T15:44:59.255+05:00 level=INFO msg="received request" ip=[::1]:55366 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T15:44:59.878+05:00 level=INFO msg="received request" ip=[::1]:55366 proto=HTTP/2.0 method=GET uri=/user/login
+time=2023-10-05T15:45:03.638+05:00 level=INFO msg="received request" ip=[::1]:55366 proto=HTTP/2.0 method=POST uri=/user/login
+time=2023-10-05T15:47:29.672+05:00 level=ERROR msg="http: TLS handshake error from [::1]:37950: remote error: tls: unknown certificate"
+time=2023-10-05T15:47:29.677+05:00 level=ERROR msg="http: TLS handshake error from [::1]:37960: remote error: tls: unknown certificate"
+time=2023-10-05T15:47:29.680+05:00 level=INFO msg="received request" ip=[::1]:37976 proto=HTTP/2.0 method=POST uri=/user/login
+time=2023-10-05T15:47:29.887+05:00 level=INFO msg="received request" ip=[::1]:37976 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T15:47:29.887+05:00 level=INFO msg="received request" ip=[::1]:37976 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T15:47:29.974+05:00 level=INFO msg="received request" ip=[::1]:37976 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T15:47:30.006+05:00 level=ERROR msg="http: TLS handshake error from [::1]:37990: remote error: tls: unknown certificate"
+time=2023-10-05T15:47:30.195+05:00 level=INFO msg="received request" ip=[::1]:37976 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T15:47:31.636+05:00 level=INFO msg="received request" ip=[::1]:37976 proto=HTTP/2.0 method=POST uri=/user/logout
+time=2023-10-05T15:47:31.659+05:00 level=INFO msg="received request" ip=[::1]:37976 proto=HTTP/2.0 method=GET uri=/favicon.ico
+time=2023-10-05T15:47:34.876+05:00 level=INFO msg="received request" ip=[::1]:37976 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T15:47:36.300+05:00 level=INFO msg="received request" ip=[::1]:37976 proto=HTTP/2.0 method=POST uri=/user/logout
+time=2023-10-05T15:47:37.379+05:00 level=INFO msg="received request" ip=[::1]:37976 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T15:47:38.025+05:00 level=INFO msg="received request" ip=[::1]:37976 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T15:47:38.036+05:00 level=INFO msg="received request" ip=[::1]:37976 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T15:47:38.036+05:00 level=INFO msg="received request" ip=[::1]:37976 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T15:47:38.041+05:00 level=ERROR msg="http: TLS handshake error from [::1]:48036: remote error: tls: unknown certificate"
+time=2023-10-05T15:47:38.138+05:00 level=INFO msg="received request" ip=[::1]:37976 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T15:47:38.349+05:00 level=INFO msg="received request" ip=[::1]:37976 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T15:57:01.698+05:00 level=ERROR msg="http: TLS handshake error from [::1]:46742: remote error: tls: unknown certificate"
+time=2023-10-05T15:57:05.234+05:00 level=ERROR msg="http: TLS handshake error from [::1]:38096: remote error: tls: unknown certificate"
+time=2023-10-05T15:57:05.237+05:00 level=ERROR msg="http: TLS handshake error from [::1]:38100: remote error: tls: unknown certificate"
+time=2023-10-05T15:57:05.240+05:00 level=INFO msg="received request" ip=[::1]:38104 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T15:57:05.251+05:00 level=INFO msg="received request" ip=[::1]:38104 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T15:57:05.251+05:00 level=INFO msg="received request" ip=[::1]:38104 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T15:57:05.256+05:00 level=ERROR msg="http: TLS handshake error from [::1]:38106: remote error: tls: unknown certificate"
+time=2023-10-05T15:57:05.527+05:00 level=INFO msg="received request" ip=[::1]:38104 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T15:57:06.065+05:00 level=INFO msg="received request" ip=[::1]:38104 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T15:57:06.697+05:00 level=ERROR msg="http: TLS handshake error from [::1]:46730: read tcp [::1]:4000->[::1]:46730: i/o timeout"
+time=2023-10-05T16:04:33.658+05:00 level=INFO msg="starting server" addr=:4000
+time=2023-10-05T16:04:36.599+05:00 level=ERROR msg="http: TLS handshake error from [::1]:47882: remote error: tls: unknown certificate"
+time=2023-10-05T16:04:36.602+05:00 level=ERROR msg="http: TLS handshake error from [::1]:47888: remote error: tls: unknown certificate"
+time=2023-10-05T16:04:36.606+05:00 level=INFO msg="received request" ip=[::1]:47902 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T16:04:36.630+05:00 level=INFO msg="received request" ip=[::1]:47902 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T16:04:36.632+05:00 level=INFO msg="received request" ip=[::1]:47902 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T16:04:37.056+05:00 level=INFO msg="received request" ip=[::1]:47902 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T16:04:37.627+05:00 level=INFO msg="received request" ip=[::1]:47902 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T16:04:38.549+05:00 level=INFO msg="received request" ip=[::1]:47902 proto=HTTP/2.0 method=POST uri=/user/logout
+time=2023-10-05T16:04:38.568+05:00 level=INFO msg="received request" ip=[::1]:47902 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T16:04:38.582+05:00 level=INFO msg="received request" ip=[::1]:47902 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T16:04:38.582+05:00 level=INFO msg="received request" ip=[::1]:47902 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T16:04:38.588+05:00 level=ERROR msg="http: TLS handshake error from [::1]:47908: remote error: tls: unknown certificate"
+time=2023-10-05T16:04:38.589+05:00 level=INFO msg="received request" ip=[::1]:47902 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T16:04:40.943+05:00 level=INFO msg="received request" ip=[::1]:47902 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T16:04:42.550+05:00 level=INFO msg="received request" ip=[::1]:47902 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T16:04:42.836+05:00 level=INFO msg="received request" ip=[::1]:47902 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T16:04:45.798+05:00 level=INFO msg="received request" ip=[::1]:47902 proto=HTTP/2.0 method=GET uri=/user/signup
+time=2023-10-05T16:04:47.990+05:00 level=INFO msg="received request" ip=[::1]:47902 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T16:05:03.303+05:00 level=INFO msg="received request" ip=[::1]:47902 proto=HTTP/2.0 method=GET uri=/snippet/create
+time=2023-10-05T16:05:03.356+05:00 level=INFO msg="received request" ip=[::1]:47902 proto=HTTP/2.0 method=GET uri=/user/login
+time=2023-10-05T16:05:03.368+05:00 level=INFO msg="received request" ip=[::1]:47902 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T16:05:03.370+05:00 level=INFO msg="received request" ip=[::1]:47902 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T16:05:03.378+05:00 level=ERROR msg="http: TLS handshake error from [::1]:36708: remote error: tls: unknown certificate"
+time=2023-10-05T16:05:03.395+05:00 level=INFO msg="received request" ip=[::1]:47902 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T17:27:22.704+05:00 level=INFO msg="starting server" addr=:4000
+time=2023-10-05T17:27:23.204+05:00 level=ERROR msg="http: TLS handshake error from [::1]:49174: remote error: tls: unknown certificate"
+time=2023-10-05T17:27:23.208+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/user/login
+time=2023-10-05T17:27:23.227+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T17:27:23.231+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T17:27:23.263+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T17:27:23.307+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T17:27:23.552+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/user/login
+time=2023-10-05T17:27:23.568+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T17:27:23.571+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T17:27:23.666+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T17:27:23.940+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T17:27:36.867+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/user/login
+time=2023-10-05T17:27:36.917+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T17:27:36.917+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T17:27:37.100+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T17:27:37.274+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T17:27:44.393+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/user/login
+time=2023-10-05T17:27:44.446+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T17:27:44.761+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/user/signup
+time=2023-10-05T17:27:45.418+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/user/login
+time=2023-10-05T17:27:47.170+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T17:27:48.106+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/user/login
+time=2023-10-05T17:27:52.450+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=POST uri=/user/login
+time=2023-10-05T17:27:52.690+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/snippet/create
+time=2023-10-05T17:27:59.603+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/snippet/create
+time=2023-10-05T17:27:59.656+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T17:27:59.656+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T17:27:59.708+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T17:27:59.854+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T17:28:01.427+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=POST uri=/user/logout
+time=2023-10-05T17:28:01.493+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T17:28:05.620+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T17:28:05.666+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T17:28:05.666+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T17:28:05.711+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T17:28:05.823+05:00 level=INFO msg="received request" ip=[::1]:49178 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T17:37:26.202+05:00 level=INFO msg="starting server" addr=:4000
+time=2023-10-05T17:37:28.892+05:00 level=ERROR msg="http: TLS handshake error from [::1]:52614: remote error: tls: unknown certificate"
+time=2023-10-05T17:37:28.894+05:00 level=ERROR msg="http: TLS handshake error from [::1]:52620: remote error: tls: unknown certificate"
+time=2023-10-05T17:37:28.898+05:00 level=INFO msg="received request" ip=[::1]:52630 proto=HTTP/2.0 method=GET uri=/
+time=2023-10-05T17:37:28.910+05:00 level=INFO msg="received request" ip=[::1]:52630 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T17:37:28.912+05:00 level=INFO msg="received request" ip=[::1]:52630 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T17:37:29.433+05:00 level=INFO msg="received request" ip=[::1]:52630 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T17:37:29.845+05:00 level=INFO msg="received request" ip=[::1]:52630 proto=HTTP/2.0 method=GET uri=/static/img/favicon.ico
+time=2023-10-05T17:37:30.803+05:00 level=INFO msg="received request" ip=[::1]:52630 proto=HTTP/2.0 method=GET uri=/user/login
+time=2023-10-05T17:37:30.814+05:00 level=INFO msg="received request" ip=[::1]:52630 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T17:37:30.814+05:00 level=INFO msg="received request" ip=[::1]:52630 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T17:37:30.841+05:00 level=INFO msg="received request" ip=[::1]:52630 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T17:37:35.316+05:00 level=INFO msg="received request" ip=[::1]:52630 proto=HTTP/2.0 method=POST uri=/user/login
+time=2023-10-05T17:37:35.559+05:00 level=INFO msg="received request" ip=[::1]:52630 proto=HTTP/2.0 method=GET uri=/snippet/create
+time=2023-10-05T17:37:35.605+05:00 level=INFO msg="received request" ip=[::1]:52630 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T17:37:35.605+05:00 level=INFO msg="received request" ip=[::1]:52630 proto=HTTP/2.0 method=GET uri=/static/js/main.js
+time=2023-10-05T17:37:35.608+05:00 level=INFO msg="received request" ip=[::1]:52630 proto=HTTP/2.0 method=GET uri=/static/img/logo.png
+time=2023-10-05T17:37:39.778+05:00 level=INFO msg="received request" ip=[::1]:52630 proto=HTTP/2.0 method=GET uri=/static/css/main.css
+time=2023-10-05T17:37:39.829+05:00 level=INFO msg="received request" ip=[::1]:52630 proto=HTTP/2.0 method=GET uri=/favicon.ico

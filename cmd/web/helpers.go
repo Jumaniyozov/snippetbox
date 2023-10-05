@@ -5,6 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/go-playground/form/v4"
+	"github.com/justinas/nosurf"
 	"net/http"
 	"runtime/debug"
 	"time"
@@ -35,34 +36,28 @@ func (app *application) notFound(w http.ResponseWriter) {
 }
 
 func (app *application) render(w http.ResponseWriter, r *http.Request, status int, page string, data templateData) {
-	// Retrieve the appropriate template set from the cache based on the page
-	// name (like 'home.tmpl'). If no entry exists in the cache with the
-	// provided name, then create a new error and call the serverError() helper
-	// method that we made earlier and return.
 	ts, ok := app.templateCache[page]
 	if !ok {
 		err := fmt.Errorf("the template %s does not exist", page)
 		app.serverError(w, r, err)
 		return
 	}
-
 	buf := new(bytes.Buffer)
-
-	// Execute the template set and write the response body. Again, if there
-	// is any error we call the the serverError() helper.
-	err := ts.ExecuteTemplate(w, "base", data)
+	err := ts.ExecuteTemplate(buf, "base", data)
 	if err != nil {
 		app.serverError(w, r, err)
+		return
 	}
-
 	w.WriteHeader(status)
-
 	buf.WriteTo(w)
 }
 
 func (app *application) newTemplateData(r *http.Request) templateData {
 	return templateData{
-		CurrentYear: time.Now().Year(),
+		CurrentYear:     time.Now().Year(),
+		Flash:           app.sessionManager.PopString(r.Context(), "flash"),
+		IsAuthenticated: app.isAuthenticated(r),
+		CSRFToken:       nosurf.Token(r), // Add the CSRF token.
 	}
 }
 
@@ -91,4 +86,12 @@ func (app *application) decodePostForm(r *http.Request, dst any) error {
 		return err
 	}
 	return nil
+}
+
+func (app *application) isAuthenticated(r *http.Request) bool {
+	isAuthenticated, ok := r.Context().Value(isAuthenticatedContextKey).(bool)
+	if !ok {
+		return false
+	}
+	return isAuthenticated
 }
