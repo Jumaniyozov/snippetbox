@@ -12,11 +12,10 @@ func (app *application) routes() http.Handler {
 	router.NotFound = http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		app.notFound(w)
 	})
-	//fileServer := http.FileServer(http.Dir("./ui/static/"))
-	//router.Handler(http.MethodGet, "/static/*filepath", http.StripPrefix("/static", fileServer))
 	fileServer := http.FileServer(http.FS(ui.Files))
 	router.Handler(http.MethodGet, "/static/*filepath", fileServer)
-	// Add the authenticate() middleware to the chain.
+	// Add a new GET /ping route.
+	router.HandlerFunc(http.MethodGet, "/ping", ping)
 	dynamic := alice.New(app.sessionManager.LoadAndSave, noSurf, app.authenticate)
 	router.Handler(http.MethodGet, "/", dynamic.ThenFunc(app.home))
 	router.Handler(http.MethodGet, "/snippet/view/:id", dynamic.ThenFunc(app.snippetView))
